@@ -1,0 +1,47 @@
+version: 2
+updates:
+    - package-ecosystem: npm
+      directory: '/'
+      schedule:
+          interval: daily
+      cooldown:
+          default-days: 5
+      open-pull-requests-limit: 10
+      ignore:
+          - dependency-name: '*'
+            update-types: ['version-update:semver-patch']
+      groups:
+          designsystemet:
+              patterns:
+                  - '@navikt/ds-*'
+                  - '@navikt/aksel-*'
+          react:
+              patterns:
+                  - 'react'
+                  - 'react-dom'
+                  - '@types/react'
+          typescript-eslint:
+              patterns:
+                  - '@typescript-eslint*'
+
+    - package-ecosystem: github-actions
+      directory: '/'
+      schedule:
+          interval: daily
+      cooldown:
+          default-days: 5
+      groups:
+          github:
+              patterns:
+                  - '*'
+
+    - package-ecosystem: docker
+      directory: '/'
+      schedule:
+          interval: daily
+      cooldown:
+          default-days: 5
+      groups:
+          docker:
+              patterns:
+                  - '*'

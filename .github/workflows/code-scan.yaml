@@ -1,0 +1,15 @@
+name: "Code scan"
+on:
+    push:
+        branches:
+            - "main"
+    workflow_dispatch:
+
+jobs:
+    sif-code-scan:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: "read"
+        steps:
+            - uses: "actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1" # v7
+            - uses: "navikt/sif-gha-workflows/.github/actions/sif-code-scan@97a944ba12c0db588a29cfeed8a7dcb22e087d3f" # v1

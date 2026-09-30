@@ -1,0 +1,16 @@
+.detail {
+    color: var(--a-text-default);
+    margin-block-end: var(--a-spacing-2) !important;
+    margin-block-start: 0 !important;
+}
+
+.heading {
+    color: var(--a-text-default);
+}
+
+.komponentContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}

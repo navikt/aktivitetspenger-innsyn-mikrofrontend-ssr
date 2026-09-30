@@ -1,0 +1,14 @@
+---
+import { text } from '@src/language/text';
+import type { Language } from '@src/language/types';
+import '@src/styles/aksel.css';
+import { isLocal } from '../../utils/environment';
+import Komponent from '@src/components/Komponent.astro';
+
+const language = Astro.currentLocale as Language;
+---
+
+{isLocal && <meta charset="UTF-8" />}
+<div class="aktivitetspenger-innsyn-mikrofrontend-ssr">
+    <Komponent heading={text.overskrift[language]} description={text.underoverskrift[language]} />
+</div>

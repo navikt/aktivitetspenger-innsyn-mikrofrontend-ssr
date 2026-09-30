@@ -1,0 +1,64 @@
+{
+    "name": "@navikt/aktivitetspenger-innsyn-mikrofrontend-ssr",
+    "type": "module",
+    "version": "0.0.2",
+    "packageManager": "yarn@4.10.3",
+    "scripts": {
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro check && astro build",
+        "preview": "astro preview",
+        "astro": "astro",
+        "prepare": "husky"
+    },
+    "dependencies": {
+        "@astrojs/check": "0.9.10",
+        "@astrojs/node": "11.1.6",
+        "@astrojs/react": "6.0.6",
+        "@navikt/aksel-icons": "7.40.0",
+        "@navikt/ds-css": "7.40.0",
+        "@navikt/ds-react": "7.40.0",
+        "@navikt/nav-dekoratoren-moduler": "4.3.0",
+        "@navikt/oasis": "4.2.2",
+        "@opentelemetry/sdk-node": "0.222.0",
+        "astro": "7.3.3",
+        "pino": "10.3.1",
+        "react": "19.3.0",
+        "react-dom": "19.3.0",
+        "rollup-plugin-import-map": "3.0.0"
+    },
+    "devDependencies": {
+        "@hono/node-server": "2.1.1",
+        "@types/node": "26.6.1",
+        "@types/react": "19.3.0",
+        "@types/react-dom": "19.3.0",
+        "hono": "4.13.8",
+        "husky": "9.1.7",
+        "lint-staged": "17.5.1",
+        "postcss": "8.5.28",
+        "postcss-prefix-selector": "2.2.1",
+        "prettier": "3.9.7",
+        "prettier-plugin-astro": "1.0.1",
+        "tsx": "4.23.13",
+        "typescript": "6.0.3"
+    },
+    "lint-staged": {
+        "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc,astro}": [
+            "prettier --write"
+        ]
+    },
+    "resolutions": {
+        "@grpc/grpc-js": "1.14.4",
+        "browserslist": "4.29.0",
+        "fast-uri": "3.1.8",
+        "js-yaml": "4.3.0",
+        "postcss": "8.5.28",
+        "protobufjs": "7.6.5",
+        "rollup": ">=4.59.0",
+        "h3": ">=1.15.6",
+        "svgo": "4.1.0",
+        "tar": ">=7.5.22",
+        "undici": ">=8.10.2"
+    },
+    "npmMinimalAgeGate": 1440
+}

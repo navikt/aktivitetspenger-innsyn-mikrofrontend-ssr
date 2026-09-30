@@ -1,0 +1,40 @@
+#linkcard {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: var(--a-surface-default);
+    text-decoration: none;
+    box-shadow: var(--a-shadow-xsmall);
+}
+#linkcard:hover {
+    border-color: var(--a-border-subtle);
+    box-shadow: var(--a-shadow-small);
+
+    svg {
+        transition-duration: 0.2s;
+        transform: scale(105%);
+    }
+
+    .heading {
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+    }
+
+    #linkcardChevron {
+        transition-duration: 0.2s;
+        transform: translate(3px, 0);
+    }
+}
+
+#linkcard:hover h3 {
+    text-decoration: underline;
+}
+
+#linkcardChevron {
+    align-self: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--a-text-subtle);
+}

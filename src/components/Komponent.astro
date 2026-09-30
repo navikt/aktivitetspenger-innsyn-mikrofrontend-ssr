@@ -1,0 +1,26 @@
+---
+import LinkCard from './link-card/LinkCard.astro';
+import Piktogram from './Piktogram.astro';
+import styles from './Komponent.module.css';
+import { BodyLong, Heading } from '@navikt/ds-react';
+
+const { heading, description } = Astro.props;
+---
+
+<div id="linkCardWrapper">
+    <LinkCard>
+        <div class={styles.komponentContainer}>
+            <Piktogram />
+            <div>
+                <Heading level="3" size="small" className={styles.heading}>{heading}</Heading>
+                <BodyLong size="medium" className={styles.detail}>{description}</BodyLong>
+            </div>
+        </div>
+    </LinkCard>
+</div>
+
+<script>
+    import { logCardClick } from '@src/utils/analytics.ts';
+    const linkCardWrapper = document.querySelector('#linkCardWrapper a');
+    linkCardWrapper?.addEventListener('click', () => logCardClick((linkCardWrapper as any).href));
+</script>

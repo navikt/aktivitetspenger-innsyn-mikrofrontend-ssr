@@ -1,0 +1,22 @@
+---
+import styles from './LinkCard.module.css';
+import { AKTIVITETSPENGER_INNSYN_URL } from 'astro:env/server';
+import { logger } from '@src/utils/logger.ts';
+
+logger.info(`aktivitetspenger-innsyn-mikrofrontend-ssr ble lastet inn med lenke til ${AKTIVITETSPENGER_INNSYN_URL}.`);
+---
+
+<a id={styles.linkcard} class="navds-panel navds-link-panel" href={AKTIVITETSPENGER_INNSYN_URL}>
+    <div class="navds-link-panel__content">
+        <slot />
+    </div>
+    <svg
+        id={styles.linkcardChevron}
+        class="navds-link-panel__chevron"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        aria-hidden="true">
+        <path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" fill-rule="evenodd"></path>
+    </svg>
+</a>
