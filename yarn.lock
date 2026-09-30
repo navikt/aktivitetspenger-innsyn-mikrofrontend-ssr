@@ -1477,7 +1477,7 @@ __metadata:
     postcss: "npm:8.5.28"
     postcss-prefix-selector: "npm:2.2.1"
     prettier: "npm:3.9.7"
-    prettier-plugin-astro: "npm:1.0.1"
+    prettier-plugin-astro: "npm:1.1.0"
     react: "npm:19.3.0"
     react-dom: "npm:19.3.0"
     rollup-plugin-import-map: "npm:3.0.0"
@@ -4399,16 +4399,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-astro@npm:1.0.1":
-  version: 1.0.1
-  resolution: "prettier-plugin-astro@npm:1.0.1"
+"prettier-plugin-astro@npm:1.1.0":
+  version: 1.1.0
+  resolution: "prettier-plugin-astro@npm:1.1.0"
   dependencies:
     "@astrojs/compiler-rs": "npm:^0.4.0"
     "@prettier/parse-srcset": "npm:^3.1.0"
     sass-formatter: "npm:^0.8.0"
   peerDependencies:
     prettier: ^3.5.3
-  checksum: 10/d52fabd8336be00001f38a4f2b26592001ecc61cf54d2aea943766ba7b4bac30dc68cc1b8d029b1aa90b4cb5e70373c39cebc5da09ec12642b58c10e8ef2c9bd
+  checksum: 10/84ebc42f95795d0d5fad4a18d4dee4ffd57754e0eab263fa7d85bbbf235a00b8da057cb937625bb5ee2dfd43a615ce2ea98ffe4538b4161caff039e0a3f194a0
   languageName: node
   linkType: hard
 
