@@ -1463,7 +1463,7 @@ __metadata:
     "@navikt/aksel-icons": "npm:7.40.0"
     "@navikt/ds-css": "npm:7.40.0"
     "@navikt/ds-react": "npm:7.40.0"
-    "@navikt/nav-dekoratoren-moduler": "npm:4.3.0"
+    "@navikt/nav-dekoratoren-moduler": "npm:4.5.0"
     "@navikt/oasis": "npm:4.2.2"
     "@opentelemetry/sdk-node": "npm:0.222.0"
     "@types/node": "npm:26.6.1"
@@ -1526,17 +1526,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@navikt/nav-dekoratoren-moduler@npm:4.3.0":
-  version: 4.3.0
-  resolution: "@navikt/nav-dekoratoren-moduler@npm:4.3.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40navikt%2Fnav-dekoratoren-moduler%2F4.3.0%2Fd2d64c4afd0201f3a1e8ec8fba9651c05fdfb736"
+"@navikt/nav-dekoratoren-moduler@npm:4.5.0":
+  version: 4.5.0
+  resolution: "@navikt/nav-dekoratoren-moduler@npm:4.5.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40navikt%2Fnav-dekoratoren-moduler%2F4.5.0%2Fe3c7d8e6e3f2efd2fb46952564e6c9c47ca200ad"
   dependencies:
     "@navikt/analytics-types": "npm:0.0.9"
-    csp-header: "npm:6.3.1"
+    csp-header: "npm:6.4.0"
     js-cookie: "npm:3.0.8"
   peerDependencies:
     html-react-parser: ">=5.x"
     react: ">=17.x"
-  checksum: 10/33af6487c0b209e55795f2f37b5c2c4996bf98320a0b6ddc796b1f49fc8724196b22cdca2621aa3b7e7366f7d2b9ed0b200b6fb6b882f431f2c16f52e0c0ee99
+  checksum: 10/c41ecbfe702fd1aed7ddfe6b8c1ad0fcc761685268d859f7d4d7736d0fcf6a21242a57524dd7b57ab4842a5f0604b365c0a35788da0e1af9a2576bd0a107a429
   languageName: node
   linkType: hard
 
@@ -2928,10 +2928,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"csp-header@npm:6.3.1":
-  version: 6.3.1
-  resolution: "csp-header@npm:6.3.1"
-  checksum: 10/6e2d46be93e800f14c9774b75c080d451a56720b3a3f85706758e90ddff14337ba58bb899a46fb0d2801cb1284942788e090203421d1a80074aa459e9a0fb38f
+"csp-header@npm:6.4.0":
+  version: 6.4.0
+  resolution: "csp-header@npm:6.4.0"
+  checksum: 10/29395877bcd7f8205c485a9383635889fb55d6d0da261810cb10fb33999b20d18f008807b1fc8e0a447e754bee0616135b1882f3c199f979781c51f6f1b0babb
   languageName: node
   linkType: hard
 
