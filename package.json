@@ -51,7 +51,7 @@
         "@grpc/grpc-js": "1.14.4",
         "browserslist": "4.29.0",
         "fast-uri": "3.1.8",
-        "js-yaml": ">=4.3.0",
+        "js-yaml": ">=4.3.2",
         "postcss": "8.5.28",
         "protobufjs": "7.6.5",
         "rollup": ">=4.59.0",
