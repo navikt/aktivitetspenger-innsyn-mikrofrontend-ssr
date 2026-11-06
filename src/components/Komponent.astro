@@ -23,6 +23,6 @@ const { heading, description } = Astro.props;
 
 <script>
     import { logCardClick } from '@src/utils/analytics.ts';
-    const linkCard = document.querySelector('#linkcard a');
-    linkCard?.addEventListener('click', () => logCardClick((linkCard as any).href));
+    const linkCard = document.querySelector<HTMLAnchorElement>('.aktivitetspenger-innsyn-mikrofrontend-ssr a');
+    linkCard?.addEventListener('click', () => logCardClick(linkCard.href));
 </script>
