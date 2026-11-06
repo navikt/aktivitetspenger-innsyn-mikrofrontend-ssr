@@ -1,26 +1,28 @@
 ---
-import LinkCard from './link-card/LinkCard.astro';
-import Piktogram from './Piktogram.astro';
-import styles from './Komponent.module.css';
 import { BodyLong, Heading } from '@navikt/ds-react';
+import Piktogram from '../icons/Piktogram.astro';
+import styles from '../styles/Komponent.module.css';
+import LinkCard from './link-card/LinkCard.astro';
 
 const { heading, description } = Astro.props;
 ---
 
-<div id="linkCardWrapper">
-    <LinkCard>
-        <div class={styles.komponentContainer}>
-            <Piktogram />
-            <div>
-                <Heading level="3" size="small" className={styles.heading}>{heading}</Heading>
-                <BodyLong size="medium" className={styles.detail}>{description}</BodyLong>
-            </div>
+<LinkCard id="linkCard">
+    <div class={styles.ikonOgTekstContainer}>
+        <Piktogram aria-hidden="true" />
+        <div>
+            <Heading level="3" size="small" className={styles.heading}>
+                {heading}
+            </Heading>
+            <BodyLong size="medium" className={styles.detail}>
+                {description}
+            </BodyLong>
         </div>
-    </LinkCard>
-</div>
+    </div>
+</LinkCard>
 
 <script>
     import { logCardClick } from '@src/utils/analytics.ts';
-    const linkCardWrapper = document.querySelector('#linkCardWrapper a');
-    linkCardWrapper?.addEventListener('click', () => logCardClick((linkCardWrapper as any).href));
+    const linkCard = document.querySelector<HTMLAnchorElement>('.aktivitetspenger-innsyn-mikrofrontend-ssr a');
+    linkCard?.addEventListener('click', () => logCardClick(linkCard.href));
 </script>

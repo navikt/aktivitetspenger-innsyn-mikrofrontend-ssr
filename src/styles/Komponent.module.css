@@ -1,0 +1,22 @@
+.detail {
+    color: var(--ax-text-neutral);
+    margin-block-end: var(--ax-space-8) !important;
+    margin-block-start: 0 !important;
+}
+
+.heading {
+    color: var(--ax-text-neutral);
+}
+
+.ikonOgTekstContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+@media (min-width: 648px) {
+    .container {
+        padding: 1.25rem;
+    }
+}
