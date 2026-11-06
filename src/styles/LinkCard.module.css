@@ -6,12 +6,12 @@
     border-radius: 8px;
     background-color: var(--ax-bg-default);
     text-decoration: none;
-    box-shadow: var(--a-shadow-xsmall);
+    box-shadow: var(--local-a-shadow-xsmall);
     color: var(--ax-text-neutral-subtle);
 }
 #linkcard:hover {
     border-color: var(--ax-border-neutral-subtle);
-    box-shadow: var(--a-shadow-small);
+    box-shadow: var(--local-a-shadow-small);
 
     svg {
         transition-duration: 0.2s;
@@ -40,7 +40,7 @@
     color: var(--ax-text-neutral-subtle);
 }
 :root {
-    --a-shadow-xsmall: 0px 1px 3px 0px rgba(0, 0, 0, 0.15), 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
-    --a-shadow-small:
+    --local-a-shadow-xsmall: 0px 1px 3px 0px rgba(0, 0, 0, 0.15), 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
+    --local-a-shadow-small:
         0px 3px 8px 0px rgba(0, 0, 0, 0.1), 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 0px 0px 1px 0px rgba(0, 0, 0, 0.18);
 }
