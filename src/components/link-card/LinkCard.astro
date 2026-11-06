@@ -1,12 +1,12 @@
 ---
-import styles from './LinkCard.module.css';
-import { AKTIVITETSPENGER_INNSYN_URL } from 'astro:env/server';
+import { LINK_CARD_URL, SERVICE_NAME } from 'astro:env/server';
 import { logger } from '@src/utils/logger.ts';
+import styles from '../../styles/LinkCard.module.css';
 
-logger.info(`aktivitetspenger-innsyn-mikrofrontend-ssr ble lastet inn med lenke til ${AKTIVITETSPENGER_INNSYN_URL}.`);
+logger.info(`${SERVICE_NAME} ble lastet inn med lenke til ${LINK_CARD_URL}.`);
 ---
 
-<a id={styles.linkcard} class="navds-panel navds-link-panel" href={AKTIVITETSPENGER_INNSYN_URL}>
+<a id={styles.linkcard} class="navds-panel navds-link-panel" href={LINK_CARD_URL}>
     <div class="navds-link-panel__content">
         <slot />
     </div>

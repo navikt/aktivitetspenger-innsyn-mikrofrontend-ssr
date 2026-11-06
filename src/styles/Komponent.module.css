@@ -8,9 +8,15 @@
     color: var(--a-text-default);
 }
 
-.komponentContainer {
+.ikonOgTekstContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1rem;
+    gap: 1.25rem;
+}
+
+@media (min-width: 648px) {
+    .container {
+        padding: 1.25rem;
+    }
 }
