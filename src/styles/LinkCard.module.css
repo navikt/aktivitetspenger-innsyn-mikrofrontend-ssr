@@ -4,13 +4,13 @@
     flex-direction: row;
     padding: 16px;
     border-radius: 8px;
-    background-color: var(--a-surface-default);
+    background-color: var(--ax-bg-default);
     text-decoration: none;
     box-shadow: var(--a-shadow-xsmall);
-    color: var(--a-text-subtle);
+    color: var(--ax-text-neutral-subtle);
 }
 #linkcard:hover {
-    border-color: var(--a-border-subtle);
+    border-color: var(--ax-border-neutral-subtle);
     box-shadow: var(--a-shadow-small);
 
     svg {
@@ -37,7 +37,7 @@
     align-self: center;
     font-size: 24px;
     font-weight: 700;
-    color: var(--a-text-subtle);
+    color: var(--ax-text-neutral-subtle);
 }
 :root {
     --a-shadow-xsmall: 0px 1px 3px 0px rgba(0, 0, 0, 0.15), 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
