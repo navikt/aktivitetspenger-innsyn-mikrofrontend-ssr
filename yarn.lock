@@ -1115,7 +1115,7 @@ __metadata:
     "@navikt/nav-dekoratoren-moduler": "npm:4.6.0"
     "@navikt/oasis": "npm:4.2.2"
     "@opentelemetry/api": "npm:1.10.0"
-    "@opentelemetry/sdk-logs": "npm:3.0.0"
+    "@opentelemetry/sdk-logs": "npm:3.1.0"
     "@opentelemetry/sdk-node": "npm:0.300.0"
     "@opentelemetry/sdk-trace": "npm:3.0.0"
     "@types/node": "npm:26.6.6"
@@ -1247,6 +1247,17 @@ __metadata:
   peerDependencies:
     "@opentelemetry/api": ">=1.10.0 <1.11.0"
   checksum: 10/bcde51834b4904ad764c9ceac992461ebd9888cb51a4f13722fd45943bc3342769df0394a3c3c61611eb5252b1b32e632b5703e1f0e44cf539690b1f211a684e
+  languageName: node
+  linkType: hard
+
+"@opentelemetry/core@npm:3.1.0":
+  version: 3.1.0
+  resolution: "@opentelemetry/core@npm:3.1.0"
+  dependencies:
+    "@opentelemetry/semantic-conventions": "npm:^1.29.0"
+  peerDependencies:
+    "@opentelemetry/api": ">=1.10.0 <1.11.0"
+  checksum: 10/b6422c0fe1b51df2e8f394f0a4ab3fe7a1df9b62993e88fd908bd28d07f6a0fd36a47c26bb8f3b239ec294ce54feeb4905c5602a2396b20605017dd4b76a6f6f
   languageName: node
   linkType: hard
 
@@ -1473,6 +1484,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@opentelemetry/resources@npm:3.1.0":
+  version: 3.1.0
+  resolution: "@opentelemetry/resources@npm:3.1.0"
+  dependencies:
+    "@opentelemetry/core": "npm:3.1.0"
+    "@opentelemetry/semantic-conventions": "npm:^1.29.0"
+  peerDependencies:
+    "@opentelemetry/api": ">=1.10.0 <1.11.0"
+  checksum: 10/93e3d80574a4d1074e46b333c6e6bad4c7e5633b9389fedd5602a999dedf84eb928b9810d2f43bf64f579cd5e53c034a38fe4cd435936c6326e188bd5c07d0a7
+  languageName: node
+  linkType: hard
+
 "@opentelemetry/sdk-logs@npm:3.0.0":
   version: 3.0.0
   resolution: "@opentelemetry/sdk-logs@npm:3.0.0"
@@ -1483,6 +1506,19 @@ __metadata:
   peerDependencies:
     "@opentelemetry/api": ">=1.10.0 <1.11.0"
   checksum: 10/6b457baa5d07c41ac34586a5838cc0667f3ac5c2b06bd8ca701be2a2f201e65155b8884a0a83546a2abbe08dd7a766274c19123762148c291f1d39d63d8a8f2a
+  languageName: node
+  linkType: hard
+
+"@opentelemetry/sdk-logs@npm:3.1.0":
+  version: 3.1.0
+  resolution: "@opentelemetry/sdk-logs@npm:3.1.0"
+  dependencies:
+    "@opentelemetry/core": "npm:3.1.0"
+    "@opentelemetry/resources": "npm:3.1.0"
+    "@opentelemetry/semantic-conventions": "npm:^1.29.0"
+  peerDependencies:
+    "@opentelemetry/api": ">=1.10.0 <1.11.0"
+  checksum: 10/17349c9b384f0ad48c5a6ad8fa93cb57af6383e83edf00d86cecd42f11ccf3fe75cc5e84c13553afbfe443aa25021bcd0aeb59806e8d3ca6480ff4812904a0c9
   languageName: node
   linkType: hard
 
