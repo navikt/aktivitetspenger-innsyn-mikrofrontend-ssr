@@ -22,7 +22,7 @@
         "@navikt/oasis": "4.2.2",
         "@opentelemetry/api": "1.10.0",
         "@opentelemetry/sdk-logs": "3.0.0",
-        "@opentelemetry/sdk-node": "0.300.0",
+        "@opentelemetry/sdk-node": "0.301.0",
         "@opentelemetry/sdk-trace": "3.0.0",
         "astro": "7.4.4",
         "html-react-parser": "6.1.9",
