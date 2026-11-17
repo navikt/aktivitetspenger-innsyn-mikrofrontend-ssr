@@ -1129,7 +1129,7 @@ __metadata:
     pino: "npm:10.4.0"
     postcss: "npm:8.5.32"
     postcss-prefix-selector: "npm:2.2.1"
-    prettier: "npm:3.9.10"
+    prettier: "npm:3.10.0"
     prettier-plugin-astro: "npm:1.1.2"
     react: "npm:19.3.1"
     react-dom: "npm:19.3.1"
@@ -3803,7 +3803,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.9.10, prettier@npm:^3.8.1":
+"prettier@npm:3.10.0":
+  version: 3.10.0
+  resolution: "prettier@npm:3.10.0"
+  bin:
+    prettier: bin/prettier.cjs
+  checksum: 10/c87442be0b480bc968cbd44d5984fd2ccf1d0b2a94aa3f35ffccc8751cf25751360adce3884d08b0f52c403fa75bfdf64bacdd2802d9fc1e0efee7456cf4ef36
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^3.8.1":
   version: 3.9.10
   resolution: "prettier@npm:3.9.10"
   bin:
