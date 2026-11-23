@@ -1094,10 +1094,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@navikt/aksel-icons@npm:8.22.1, @navikt/aksel-icons@npm:^8.22.1":
-  version: 8.22.1
-  resolution: "@navikt/aksel-icons@npm:8.22.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40navikt%2Faksel-icons%2F8.22.1%2Fc93a3bad8be4134bd833ecc08db4583034be4d75"
-  checksum: 10/801ece52ab9420783c753463217f95e4a3c6ce5e6eb610e09c1092aba7cd5a47e1af48b5681dc0ce15fb23063896a9433e936313bd0d4745233a3f0ad371917c
+"@navikt/aksel-icons@npm:8.23.0, @navikt/aksel-icons@npm:^8.23.0":
+  version: 8.23.0
+  resolution: "@navikt/aksel-icons@npm:8.23.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40navikt%2Faksel-icons%2F8.23.0%2F311555ce46b07fdc883d5398adbb0c7a47be45cd"
+  checksum: 10/55ee0ddb6f4603043ed4582838b364f8bee92254188f5da8e3958b94d10ab8e95801c6ea04f3b22019ee0982769fd25cd5dcfa70a92ea65ebeaf883dd4e49d69
   languageName: node
   linkType: hard
 
@@ -1109,9 +1109,9 @@ __metadata:
     "@astrojs/node": "npm:11.1.9"
     "@astrojs/react": "npm:7.1.2"
     "@hono/node-server": "npm:2.1.5"
-    "@navikt/aksel-icons": "npm:8.22.1"
-    "@navikt/ds-css": "npm:8.22.1"
-    "@navikt/ds-react": "npm:8.22.1"
+    "@navikt/aksel-icons": "npm:8.23.0"
+    "@navikt/ds-css": "npm:8.23.0"
+    "@navikt/ds-react": "npm:8.23.0"
     "@navikt/nav-dekoratoren-moduler": "npm:4.6.0"
     "@navikt/oasis": "npm:4.2.2"
     "@opentelemetry/api": "npm:1.10.0"
@@ -1146,35 +1146,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@navikt/ds-css@npm:8.22.1":
-  version: 8.22.1
-  resolution: "@navikt/ds-css@npm:8.22.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40navikt%2Fds-css%2F8.22.1%2F623473ad66bd13b979cd026acb51b996b25a62a4"
-  checksum: 10/c7a72cad3929ec5d0b9c9577cf7d4c9e1326c93f36fe6b38504053fc08802469e89e0046576b5d0e69115c2e1375cdfc45909cbc66e36282ec4d82348355a249
+"@navikt/ds-css@npm:8.23.0":
+  version: 8.23.0
+  resolution: "@navikt/ds-css@npm:8.23.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40navikt%2Fds-css%2F8.23.0%2F25c581536d7651058a0d1652a6814b4657761dc0"
+  checksum: 10/5924544e37fed46ae57cbb2c214cc24931a39204559cfaa02534a976fd1fbbd9a9fec4d2464ffcc02d880216ecf70492b453224843228d14059206abc4951c0c
   languageName: node
   linkType: hard
 
-"@navikt/ds-react@npm:8.22.1":
-  version: 8.22.1
-  resolution: "@navikt/ds-react@npm:8.22.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40navikt%2Fds-react%2F8.22.1%2F864ade4ec3891f9bf5e94a71089665433ce351d7"
+"@navikt/ds-react@npm:8.23.0":
+  version: 8.23.0
+  resolution: "@navikt/ds-react@npm:8.23.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40navikt%2Fds-react%2F8.23.0%2F2719a502c207c16a55528c580b2d5fc88697d0b1"
   dependencies:
     "@floating-ui/react": "npm:0.27.20"
     "@floating-ui/react-dom": "npm:^2.1.9"
-    "@navikt/aksel-icons": "npm:^8.22.1"
-    "@navikt/ds-tokens": "npm:^8.22.1"
+    "@navikt/aksel-icons": "npm:^8.23.0"
+    "@navikt/ds-tokens": "npm:^8.23.0"
     date-fns: "npm:^4.0.0"
     react-day-picker: "npm:10.0.2"
   peerDependencies:
     "@types/react": ^17.0.30 || ^18 || ^19
     react: ^17 || ^18 || ^19
     react-dom: ^17 || ^18 || ^19
-  checksum: 10/d20d87c5c8e28670b46444ee35726da893f2c72f78d0def38b4dcf3e098e1727b6e85341b7e1a94faaee330050a2fb9f1c3a91bc33e73f71f08ae8e074f9c172
+  checksum: 10/58ed4c72bf5b089491c2d6319c6c298bcad1757ead013f1467945350f8abd02fcb98f720a8b12549b1bce93e29750a2cff4704d02de6afb98f4ff950c48c50cc
   languageName: node
   linkType: hard
 
-"@navikt/ds-tokens@npm:^8.22.1":
-  version: 8.22.1
-  resolution: "@navikt/ds-tokens@npm:8.22.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40navikt%2Fds-tokens%2F8.22.1%2F43f354b993b9a56b9b4329ab54a9e17c5decf92b"
-  checksum: 10/427cdb0cc4e4092f7d4c54fc312e1684ca61bc14f57044e4b061c38f2e9c3f2c7beb4d4de940193a10844a697b2e12dcbd443d30ffa69ab107277e97dad5796d
+"@navikt/ds-tokens@npm:^8.23.0":
+  version: 8.23.0
+  resolution: "@navikt/ds-tokens@npm:8.23.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40navikt%2Fds-tokens%2F8.23.0%2F569a10706977258093e2ecf396f29884b03562f9"
+  checksum: 10/4c85c76ad443ec565e5b0ec15d71ba6d4ea2101c46189a7e6be64a412ca4beb5b921fe974bf30ef22e11f2175dea4734622201094859ad03f364263326341881
   languageName: node
   linkType: hard
 
